@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -30,4 +31,95 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navbar {
+  align-items: center;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding: 0 3%;
+  width: 100%;
+  -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+}
+
+.dark-mode__toggle {
+  background: papayawhip;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.toggle {
+  background:goldenrod;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 18px;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+}
+
+
+.dark-mode .navbar {
+  background-color: #1F2022;
+  border: none;
+}
+
+
+.card{
+  width: 250px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 10%;
+  border: 1px solid yellow;
+  padding: 15px;
+  background-color: goldenrod;
+}
+
+.card-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+}
+
+.card-title{
+  font-size: 2rem;
+}
+
+.card-subtitle{
+  font-size: 1.5rem;
+}
+
+.card-text{
+  font-size: 1.2rem;
+}
+.title{
+  font-size: 3rem;
+  color:goldenrod;
+}
+
+.navbar h1{
+  color:goldenrod;
 }
