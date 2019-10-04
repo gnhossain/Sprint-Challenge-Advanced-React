@@ -115,3 +115,11 @@
 .card-text{
   font-size: 1.2rem;
 }
+.title{
+  font-size: 3rem;
+  color:goldenrod;
+}
+
+.navbar h1{
+  color:goldenrod;
+}
