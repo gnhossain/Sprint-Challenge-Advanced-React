@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -54,7 +55,7 @@
 }
 
 .toggle {
-  background: #f68819;
+  background:goldenrod;
   border-radius: 50px;
   height: 18px;
   left: 0;
@@ -76,4 +77,41 @@
 .dark-mode .navbar {
   background-color: #1F2022;
   border: none;
+}
+
+
+.card{
+  width: 250px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 10%;
+  border: 1px solid seagreen;
+  padding: 15px;
+  background-color: goldenrod;
+}
+
+.card-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+}
+
+.card-title{
+  font-size: 2rem;
+}
+
+.card-subtitle{
+  font-size: 1.5rem;
+}
+
+.card-text{
+  font-size: 1.2rem;
 }

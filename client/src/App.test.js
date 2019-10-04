@@ -10,7 +10,7 @@ it('renders without crashing', () => {
   // ready to test!
 });
 
-it('renders "at Bat" text', () => {
+it('renders "Players" text', () => {
   const wrapper = rtl.render(<App />);
   const hasTitleText = wrapper.queryByText(/players/i);
 });

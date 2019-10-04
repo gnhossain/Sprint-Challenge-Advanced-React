@@ -17,6 +17,9 @@ export default function PlayerCard(props){
                 <CardText>
                 Searches: {player.searches}
                 </CardText>
+                <CardText>
+                    ID: {player.id}
+                </CardText>
             </CardBody>
         </Card>
     )

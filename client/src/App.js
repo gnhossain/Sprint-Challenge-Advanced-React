@@ -20,10 +20,10 @@ class App extends React.Component {
     axios
       .get('http://localhost:5000/api/players')
       .then(res => {
-        console.log(res);
-        console.log(res.data);
+        // console.log(res);
+        // console.log(res.data);
         this.setState({players: res.data});
-        console.log(this.state.players);
+        // console.log(this.state.players);
       })
       .catch(err => console.log(err));
   }
@@ -34,16 +34,14 @@ class App extends React.Component {
     return (
       <div className='App'>
         <NavBar />
-        <div>
-          <h2>Players Ranked By Searches</h2>   
-        </div>
-
         <h1 className='title'>
-          Players
+          Women's World Cup Players
         </h1>
+        <div className="cards">
           {this.state.players.map( player => (
             <PlayerCard player={player} key={player.id}/>
           ))}
+          </div>
       </div>
     );
   }
