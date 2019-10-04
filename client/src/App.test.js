@@ -12,5 +12,5 @@ it('renders without crashing', () => {
 
 it('renders "Players" text', () => {
   const wrapper = rtl.render(<App />);
-  const hasTitleText = wrapper.queryByText(/players/i);
+  const hasTitleText = wrapper.queryByText(/woman's world cup players/i);
 });
